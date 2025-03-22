@@ -39,25 +39,22 @@ body {
     font-size: 18px;
 }
 
-/* Main Banner */
-.main-banner {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* Main Content */
+.content {
+    padding: 40px 20px;
     text-align: center;
-    background-image: url('../images/banner-item-03.jpg');
-    background-size: cover;
-    background-position: center;
 }
 
-.main-banner h2 {
-    font-size: 40px;
-    margin-bottom: 10px;
+.blog-post {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin: 10px 0;
 }
 
-.main-banner p {
-    font-size: 20px;
+.ad-box video {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
 }
 
 /* Footer */
